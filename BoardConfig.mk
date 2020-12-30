@@ -35,6 +35,7 @@ TARGET_KERNEL_CONFIG := lineageos_FP2_defconfig
 TARGET_KERNEL_SOURCE := kernel/fairphone/msm8974
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 BOARD_KERNEL_CMDLINE := security=apparmor apparmor=1 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3b7 ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
+BOARD_KERNEL_CMDLINE += console=tty0
 BOARD_KERNEL_SEPARATED_DT := true
 
 # Architecture
